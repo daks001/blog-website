@@ -146,17 +146,19 @@ li:hover {
 }
 
 .more a {
- color: #8D69FF;
+ /* color: #8D69FF; */
+ padding: 3%;
+ color: black;
 }
 
 .more a:hover {
- padding: 3%;
- background-color: #8D69FF;
- color: white;
+ /* background-color: #8D69FF; */
+ /* color: white; */
+ background: linear-gradient(90deg, rgba(255,90,221,1) 0%, rgba(254,232,27,0.9808298319327731) 40%, rgba(255,108,121,1) 100%);
 }
 
 .excerpt {
- padding: 0 5%;
+ padding: 2% 5%;
 }
 
 .excerpt h3, p {
@@ -176,8 +178,6 @@ li:hover {
  height: 11rem;
  /* overflow: hidden; */
  /* overflow-wrap: break-word; */
- align-items: center;
- justify-content: center;
 }
 
 .cover img {
@@ -215,5 +215,18 @@ footer {
 @media(max-width: 8.5in) {
  .blog {
   width: 90%;
+ }
+
+ .cover img {
+  width: 50%;
+  margin-top: 1rem;
+  max-height: 9rem;
+ }
+}
+
+@media(max-width: 5.5in) {
+ .cover img {
+  width: 60%;
+  max-height: 8rem;
  }
 }
