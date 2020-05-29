@@ -114,29 +114,19 @@ li:hover {
 }
 
 .blog {
- padding: 4% 4%;
- margin: 2%;
- width: 30%;
+ padding: 3%;
+ margin-bottom: 2%;
+ width: 25%;
+ /* height: 500px; */
+ /* overflow: hidden; */
+ /* height: 100%; */
  display: inline-block;
  font-family: sans-serif;
  letter-spacing: 0.1rem;
  line-height: 1.5rem;
  /* text-align: justify; */
  /* background-color: honeydew; */
-<<<<<<< HEAD
-<<<<<<< Updated upstream
  border-radius: 3%;
-=======
- /* border-radius: 3%; */
- /* box-shadow: inset -0.2em -0.2em #D4EEFF; */
-}
-
-.blog:hover {
- /* cursor: pointer; */
- border-radius: 5%;
->>>>>>> f7fd021759f42b421eb8ba3fb964a76134a91189
- box-shadow: inset -0.2em -0.2em #D4EEFF;
-=======
  /* border-radius: 3%; */
  /* box-shadow: inset -0.2em -0.2em #D4EEFF; */
 }
@@ -145,8 +135,8 @@ li:hover {
  /* cursor: pointer; */
  border-radius: 5%;
  /* box-shadow: inset -0.2em -0.2em #D4EEFF; */
- box-shadow: 1em 1em 2em 2em #D4EEFF;
->>>>>>> Stashed changes
+ box-shadow: 1em 1em 1em 1.2em #FEECE1;
+ /* box-shadow: 1em 1em 0.5em 1.2em #FFF295; */
 }
 
 .more {
@@ -183,17 +173,19 @@ li:hover {
 } */
 
 .cover {
- height: 100%;
+ height: 11rem;
+ /* overflow: hidden; */
+ /* overflow-wrap: break-word; */
+ align-items: center;
+ justify-content: center;
 }
 
 .cover img {
- width : 100%;
-<<<<<<< HEAD
-<<<<<<< Updated upstream
- height: fit-content;
-=======
-=======
->>>>>>> f7fd021759f42b421eb8ba3fb964a76134a91189
+ width: 70%;
+ min-height: 11rem;
+ /* vertical-align: middle; */
+ /* height: 100%; */
+ /* height: fit-content; */
 }
 
 .past-blogs a{
@@ -210,15 +202,9 @@ li:hover {
 
 .past-blogs a:hover {
  cursor: pointer;
-<<<<<<< HEAD
  box-shadow: 0.2em 0.2em 2em black;
  /* background-color: rgb(0,0,0,0.5); */
  /* color: white; */
->>>>>>> Stashed changes
-=======
- background-color: rgb(0,0,0,0.5);
- color: white;
->>>>>>> f7fd021759f42b421eb8ba3fb964a76134a91189
 }
 
 footer {
