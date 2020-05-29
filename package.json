@@ -1,0 +1,30 @@
+{
+  "name": "blog-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "check": "gts check",
+    "clean": "gts clean",
+    "compile": "tsc -p .",
+    "fix": "gts fix",
+    "prepare": "npm run compile",
+    "pretest": "npm run compile",
+    "posttest": "npm run check",
+    "start": "node build/src/index.js",
+    "copy-static-assets": "ts-node copyStaticAssets.ts",
+    "gcp-build": "rm -rf build/ && npm i && npm run compile && npm run copy-static-assets",
+    "deploy": "gcloud app deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daks001/blog-website.git"
+  },
+  "author": "Dakshika Srivastava",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daks001/blog-website/issues"
+  },
+  "homepage": "https://github.com/daks001/blog-website#readme"
+}
