@@ -14,7 +14,11 @@ body {
 a {
  color: #7C7978;
  text-decoration: none;
- box-shadow: inset -0.2em -0.2em #D4EEFF;
+ /* box-shadow: inset -0.2em -0.2em #D4EEFF; */
+}
+
+.white {
+ color: white;
 }
 
 header {
@@ -27,6 +31,13 @@ header {
  position: fixed;
  top: 0;
  width: 100%;
+}
+
+.highlight {
+ /* background-color: red !important; */
+ /* background-color: red; */
+ background: rgba(0,0,0,0.5);
+ box-shadow: 0 3px 20px rgba(black, 0.2);
 }
 
 .logo {
@@ -51,10 +62,13 @@ header {
  float: right;
  padding: 1% 2%;
  /* margin-bottom: 2%; */
+ margin-right: 1%;
 }
 
-a:hover {
- box-shadow: inset -0.2em -0.2em 0 #5BBEFF;
+li:hover {
+ cursor: pointer;
+ /* box-shadow: inset -0.2em -0.2em 0 #5BBEFF; */
+ background: linear-gradient(90deg, rgba(255,90,221,1) 0%, rgba(254,232,27,0.9808298319327731) 40%, rgba(255,108,121,1) 100%);
 }
 
 /* li:hover { */
@@ -72,6 +86,7 @@ a:hover {
  font-family: "Open sans", serif;
  /* display: inline-block; */
  text-align: center;
+ margin-top: 10%;
 }
 
 .landing-text {
@@ -108,8 +123,18 @@ a:hover {
  line-height: 1.5rem;
  /* text-align: justify; */
  /* background-color: honeydew; */
+<<<<<<< HEAD
 <<<<<<< Updated upstream
  border-radius: 3%;
+=======
+ /* border-radius: 3%; */
+ /* box-shadow: inset -0.2em -0.2em #D4EEFF; */
+}
+
+.blog:hover {
+ /* cursor: pointer; */
+ border-radius: 5%;
+>>>>>>> f7fd021759f42b421eb8ba3fb964a76134a91189
  box-shadow: inset -0.2em -0.2em #D4EEFF;
 =======
  /* border-radius: 3%; */
@@ -122,6 +147,22 @@ a:hover {
  /* box-shadow: inset -0.2em -0.2em #D4EEFF; */
  box-shadow: 1em 1em 2em 2em #D4EEFF;
 >>>>>>> Stashed changes
+}
+
+.more {
+ /* display: none; */
+ text-align: right;
+ font-size: 0.8rem;
+}
+
+.more a {
+ color: #8D69FF;
+}
+
+.more a:hover {
+ padding: 3%;
+ background-color: #8D69FF;
+ color: white;
 }
 
 .excerpt {
@@ -141,11 +182,18 @@ a:hover {
  width: fit-content;
 } */
 
+.cover {
+ height: 100%;
+}
+
 .cover img {
  width : 100%;
+<<<<<<< HEAD
 <<<<<<< Updated upstream
  height: fit-content;
 =======
+=======
+>>>>>>> f7fd021759f42b421eb8ba3fb964a76134a91189
 }
 
 .past-blogs a{
@@ -162,10 +210,15 @@ a:hover {
 
 .past-blogs a:hover {
  cursor: pointer;
+<<<<<<< HEAD
  box-shadow: 0.2em 0.2em 2em black;
  /* background-color: rgb(0,0,0,0.5); */
  /* color: white; */
 >>>>>>> Stashed changes
+=======
+ background-color: rgb(0,0,0,0.5);
+ color: white;
+>>>>>>> f7fd021759f42b421eb8ba3fb964a76134a91189
 }
 
 footer {
