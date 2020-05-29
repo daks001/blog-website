@@ -1,0 +1,58 @@
+body {
+ padding: 0;
+ margin: 0;
+ text-decoration: none;
+ background: #FAF4EE;
+}
+
+.back {
+ padding: 2%;
+ width: 40%;
+ display: inline-block;
+}
+
+.back i {
+ font-size: 3rem;
+ color: #FF95BF;
+}
+
+.back i:hover {
+ cursor: pointer;
+ color: #FF4C93;
+ transition: 700ms;
+}
+
+.topic {
+ width: 50%;
+ display: inline-block;
+ text-align: right;
+}
+
+.topic h1 {
+ color: #FF4C93;
+ text-transform: lowercase;
+ text-shadow: 0.1em 0.1em 1em #FF95BF;
+ font-style: oblique;
+}
+
+.about {
+ /* height: 90%; */
+}
+
+.msg {
+ padding: 0 0 0 10%;
+ width: 30%;
+ display: inline-block;
+}
+
+.image {
+ width: 30%;
+ /* float: right; */
+ display: inline-block;
+ /* text-align: right; */
+}
+
+.image img {
+ width: 90%;
+ /* max-height: 20rem; */
+}
