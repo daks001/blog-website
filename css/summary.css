@@ -154,3 +154,66 @@ footer {
  padding: 2%;
  text-align: center;
 }
+
+@media (max-width: 10in) {
+ .heading {
+  padding: 15% 0 3% 0;
+ }
+
+ .read {
+  width: 100%;
+  text-align: center;
+  /* display: inline-block; */
+  /* float: right; */
+  /* padding-right: 5%; */
+  padding: 2%;
+  padding-bottom: 5%;
+ }
+
+ .read a {
+  padding-bottom: 5%;
+  /* padding-right: 15%; */
+ }
+
+ .read a:hover {
+  color: black;
+  padding: 2%;
+  box-shadow: 0.2em 0.2em 0.5em #8D69FF;
+ }
+
+ .article {
+  width: 100%;
+ }
+
+ .image {
+  width: 100%;
+  text-align: center;
+  padding: 5% 0 0 0;
+ }
+
+ .image img {
+  width: 100%;
+  max-width: 500px;
+ }
+
+ .middle {
+  width: 96%;
+  padding-left: 5%;
+  padding-right: 5%;
+ }
+
+ .intro {
+  padding-right: 10%;
+ }
+
+ .middle .stats {
+  float: left;
+  /* padding-right: 5%; */
+  width: 100%;
+  /* display: inline-block; */
+ }
+
+ .stats p {
+  padding-right: 10%;
+ }
+}
